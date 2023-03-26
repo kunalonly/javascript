@@ -1,0 +1,17 @@
+#list{
+    text-decoration: line-through;
+    color:tomato;
+}
+div:hover{
+cursor: pointer;
+
+}
+div{
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+}
+.container{
+    display: flex;
+  flex-direction: row;
+}

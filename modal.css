@@ -1,0 +1,45 @@
+#model
+{ 
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid gray;
+    background-color: white;
+    padding:40px;
+}
+
+
+#overlay{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.70);
+
+}
+
+#model.open {
+    display: block;
+  }
+
+  #overlay.open {
+    display: block;
+  }
+
+video{
+width: 300px;
+height: 300px;
+}
+
+#img-wrapper
+{
+  display: none;
+}
+
+#img-wrapper.open{
+  display: block;
+}
